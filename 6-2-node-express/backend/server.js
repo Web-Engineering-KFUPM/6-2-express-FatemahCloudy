@@ -2,6 +2,12 @@ import express from "express";
 import cors from "cors";
 import { getRandomQuote } from "./quotes.js";
 
+const app = express();
+const PORT = 300;
+app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+});
+
 {/*write code for cors*/}
 
 
